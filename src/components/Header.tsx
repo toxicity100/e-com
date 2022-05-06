@@ -4,7 +4,7 @@ import React from 'react';
 import Logo from '../assets/Logo.svg';
 import Menu from '../assets/Menu.svg';
 import SearchIcon from '../assets/icons/Search.svg';
-import ShoppingBagIcon from '../assets/icons/shopping\ bag.svg';
+import ShoppingBagIcon from '../assets/icons/shopping-bag.svg';
 
 // Importing Styles
 import styles from '../scss/Header.module.scss';
