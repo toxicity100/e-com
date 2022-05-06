@@ -1,0 +1,52 @@
+@import './globals';
+
+.banner_section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .banner_pic {
+        width: 100%;
+    }
+
+    .banner_typography {
+        position: absolute;
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    button {
+        position: absolute;
+        background: rgba($color: #000000, $alpha: 0.4);
+        color: #fcfcfc;
+        border-radius: 50px;
+        padding: 12px 40px;
+        bottom: 85px;
+        bottom: 7.5%;
+        font: {
+            family: $ff-tenor;
+            size: clamp(10px, 3.5vw, 28px);
+        }
+    }
+
+    .slider_dots {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        bottom: 3%;
+
+        div {
+            border: 1px solid #f5f5f5;
+            min-width: 6px;
+            min-height: 6px;
+            transform: rotate(-45deg);
+
+            &:first-of-type {
+                background: #f5f5f5;
+            }
+        }
+    }
+}
