@@ -25,6 +25,3 @@ yarn-error.log*
 
 # css
 /src/css
-
-/src/components/NewArrival.tsx
-/src/scss/NewArrival.module.scss
