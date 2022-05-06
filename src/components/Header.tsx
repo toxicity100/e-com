@@ -7,7 +7,7 @@ import SearchIcon from '../assets/icons/Search.svg';
 import ShoppingBagIcon from '../assets/icons/shopping\ bag.svg';
 
 // Importing Styles
-import styles from '../css/Header.module.css';
+import styles from '../css/Header.module.scss';
 
 const Header = () => {
     return (

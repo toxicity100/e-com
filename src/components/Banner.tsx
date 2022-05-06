@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Importing Styles
-import styles from '../css/Banner.module.css';
+import styles from '../css/Banner.module.scss';
 
 // Importing Images
 import BannerPic from '../assets/images/Banner.png';
