@@ -43,7 +43,7 @@
     }
 
     .tabs_buttons {
-         width: 90%;
+        width: 90%;
         max-width: 420px;
         display: flex;
         flex-wrap: wrap;
@@ -112,6 +112,24 @@
                 font-size: 17px;
                 font-family: $ff-tenor;
                 margin-top: 3px;
+            }
+        }
+    }
+
+    button {
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px auto 40px;
+        gap: 8px;
+
+        span {
+            line-height: 24px;
+            font: {
+                family: $ff-tenor;
+                size: 16px;
+                weight: lighter;
             }
         }
     }

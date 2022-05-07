@@ -1,0 +1,62 @@
+@import './globals';
+
+.collections_section {
+    .heading {
+        font: {
+            family: $ff-tenor;
+            size: 20px;
+            weight: lighter;
+        }
+        margin: 70px 0 20px;
+        text-align: center;
+        letter-spacing: 4px;
+    }
+
+    .banner_wrap {
+        position: relative;
+        width: 100%;
+        height: fit-content;
+
+        &:first-of-type {
+            img {
+                width: 100%;
+                &:last-of-type {
+                    position: absolute;
+                    width: 52%;
+                    bottom: 2%;
+                    right: 0px;
+                }
+            }
+        }
+
+        &:last-of-type {
+            padding: 10% 0;
+            text-align: center;
+            img {
+                width: 70%;
+                &:last-of-type {
+                    position: absolute;
+                    width: 45%;
+                    top: 20%;
+                    right: 16%;
+                }
+            }
+        }
+    }
+
+    .video_wrap {
+        width: 100%;
+        position: relative;
+        display: grid;
+        place-items: center;
+        img {
+            width: 100%;
+
+            &:last-of-type {
+                position: absolute;
+                min-width: 40px;
+                width: 10%;
+            }
+        }
+    }
+}

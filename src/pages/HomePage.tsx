@@ -4,6 +4,8 @@ import React from 'react';
 import Header from '../components/Header';
 import Banner from '../components/Banner';
 import NewArrival from '../components/NewArrival';
+import Brands from '../components/Brands';
+import Collections from '../components/Collections';
 
 const HomePage = () => {
     return (
@@ -11,6 +13,8 @@ const HomePage = () => {
             <Header />
             <Banner />
             <NewArrival />
+            <Brands />
+            <Collections />
         </div>
     );
 };

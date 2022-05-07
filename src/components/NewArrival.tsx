@@ -3,12 +3,12 @@ import React from 'react';
 // Importing Styles
 import styles from '../scss/NewArrival.module.scss';
 
-// Importing Images
+// Importing Images & Logos
 import Img1 from '../assets/img-1.svg';
 import Img2 from '../assets/img-2.svg';
 import Img3 from '../assets/img-3.svg';
 import Img4 from '../assets/img-4.svg';
-
+import ArrowRight from '../assets/icons/Forward-Arrow.svg';
 
 const NewArrival = () => {
     return (
@@ -43,6 +43,12 @@ const NewArrival = () => {
                     <p>$120</p>
                 </div>
             </div>
+            <button type='button'>
+                <span>
+                    Explore More
+                </span>
+                <img src={ArrowRight} alt="Arrow Right Icon" />
+            </button>
         </section>
     );
 };

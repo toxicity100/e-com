@@ -1,0 +1,62 @@
+.brands_section {
+    .logos_container {
+        width: 90%;
+        max-width: 420px;
+        display: flex;    
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px 3.3%;
+        padding: 0 10px;
+        margin: auto;
+
+        .logo_wrap {
+            width: 30%;
+            text-align: center;
+
+            img {
+                width: 90%;
+                max-width: 70px;
+                min-width: 40px;
+            }
+            
+            &:nth-of-type(2),
+            &:nth-of-type(6) {
+                img {
+                    width: 100%;
+                }
+            }
+
+            &:nth-of-type(3) {
+                img {
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+    .devider {
+        width: 45%;
+        height: 0.5px;
+        background: #a8a8a882;
+        margin: 0 auto 20px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+        &:last-of-type {
+            margin: 23px auto 0;
+        }
+
+        &::after {
+            content: "";
+            border: 0.5px solid #a8a8a882;
+            width: 6px;
+            height: 6px;
+            transform: rotate(45deg);
+            position: absolute;
+            background: #fff;
+            top: -4px;
+        }
+    }
+}
