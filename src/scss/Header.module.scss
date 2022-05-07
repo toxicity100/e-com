@@ -1,13 +1,14 @@
 .header {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr  1fr;
     align-items: center;
     padding: 20px 15px 10px;
-
+    position: relative;
+    
     .logo {
-        margin-left: 10px;
         justify-self: center;
+        position: absolute;
     }
 
     div {
